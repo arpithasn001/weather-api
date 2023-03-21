@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index.css">
+    <title>review</title>
+</head>
+<body>
+    <h1>wheather</h1>
+
+    <div class="center">
+        <center><table border="1"></center>
+
+            <tr>
+                <th>Current_Temperature</th>
+                <th>Current_Pressure</th>
+                <th>Current_Humidity</th>
+                <th>Weather_Description</th>
+                <th width="250">Date_Time</th>
+            </tr>
+
+            {% for review in reviews %}
+
+            <tr>
+                <td> {{review['Current_Temperature']}} </td>
+                <td> {{review['Current_Pressure']}} </td>
+                <td> {{review['Current_Humidity']}} </td>
+                <td> {{review['Weather_Description']}} </td>
+                <td> {{review['Date_Time']}} </td>
+
+            </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+</body>
+    
+</body>
+</html>

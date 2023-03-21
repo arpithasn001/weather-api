@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: rgb(180, 230, 173);
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+}
+
+#content {
+    width: 30em;
+    height: 30px;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+#button {
+    border: none;
+    border-bottom: 2px solid rgb(232, 156, 143);
+    border-top: 2px solid rgb(189, 143, 232);
+    font-size: 25px;
+    padding: 0.2em 1em;
+    background-color: rgb(255, 0, 234);
+    border-radius: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
